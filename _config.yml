@@ -41,8 +41,7 @@ defaults:
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
-pygments_css_theme: emacs
+highlighter: rouge
 #theme: minima
 
 
