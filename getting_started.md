@@ -87,7 +87,7 @@ md5:  b20180b838c76c9d26b48a558387e536
 ```
 
 ##### Download Mirrors:
-<!-- - [Cornell Course Website](http://www.cs.cornell.edu/courses/cs2043/2017sp/vms/cs2043_fedora.ova) -->
+- [CornellBox](https://cornell.box.com/s/zup914jek0rrfizyshidnix065acv548)
 - [Dropbox](https://www.dropbox.com/s/b40c4zsqi2j504r/cs2043_fedora.ova?dl=0)
 - [Google Drive](https://drive.google.com/open?id=0B47IM_slYhMnUTViMzVWQkhPRWM)
 
@@ -100,7 +100,7 @@ md5:  c4b29fa6c10d9316917f53accf8c2023
 ```
 
 ##### Download Mirrors
-<!-- - [Cornell Course Website](http://www.cs.cornell.edu/courses/cs2043/2017sp/vms/cs2043_ubuntu.ova) -->
+- [CornellBox](https://cornell.box.com/s/jr5fn7wdbfm5rozpm26cefze69lgam7v)
 - [Dropbox](https://www.dropbox.com/s/4le4refjqutc2bk/cs2043_ubuntu.ova?dl=0)
 - [Google Drive](https://drive.google.com/open?id=0B47IM_slYhMnMFpNdTUtWTlDUWc)
 
@@ -116,7 +116,7 @@ What you just downloaded is an archive of a Virtual Machine (think of it like a
 5. Check the box that says "Reinitialize the MAC address of all network cards."
 6. Click import, and let VirtualBox take over.
 
-{% include no_64bit.html %}
+{% include no_64bit_or_vtx.html %}
 
 ### 4. Run it!
 

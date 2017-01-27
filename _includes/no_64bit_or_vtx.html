@@ -2,36 +2,32 @@
   <div class="panel panel-danger">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" href="#sixty_four_bit_dilemma">VirtualBox Saying "No 64bit Options"?</a>
+        <a data-toggle="collapse" href="#sixty_four_bit_vtx_dilemma">VirtualBox Saying "No 64bit Options" or <kbd>VT-x</kbd> is disabled?</a>
       </h4>
     </div>
-    <div id="sixty_four_bit_dilemma" class="panel-collapse collapse">
+    <div id="sixty_four_bit_vtx_dilemma" class="panel-collapse collapse">
       <div class="panel-body">
         <p>
           If you are having this issue, then you need to enable something in the BIOS
           called "VT-x".  This exists to provide "security", and is usually disabled by
           default.  Refer to <a href="http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/#.Vqj7KCorKNg">
-          this article</a> for the solution.
+          this article</a> for the solution.  You can also search for "enable VT-x
+          (insert computer model)" to find a solution.  For example, if you had a Dell
+          Inspiron, you would search for "enable VT-x Dell Inspiron <strong>(model
+          number)</strong>".  Use the model number to get better results.
         </p>
 
         <p>
-          You can also search for "enable VT-x (insert computer model)" to find a
-          solution.  For example, if you had a Dell Inspiron, you would search for
-          "enable VT-x Dell Inspiron <strong>(model number)</strong>".  Use the model
-          number to get better results.
+          If your computer does not support VT-x, please use the 32bit VM option (<strong>coming soon</strong>).
         </p>
 
-        <p>
-          If your computer does not support VT-x, e-mail me immediately with your
-          computer make and model.  I may produce 32bit VMs if people are having trouble,
-          but would prefer not to.
-        </p>
-
+        <div class="well">
         <p>
           Lastly, be <strong>very</strong> careful in the BIOS.  Do not change anything
           you do not need to, as this can produce adverse problems and may make it so
           that you cannot start your operating system (depending on what you did).
         </p>
+        </div>
       </div>
     </div>
   </div>
