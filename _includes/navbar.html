@@ -31,7 +31,7 @@
         <li>
       {% endif %}
       {% if nav_page.external %}
-        <a href="{{ nav_page.path }}" target="_blank">{{ nav_page.name }}</a>
+        <a href="{{ nav_page.path }}" target="_blank" rel="noopener">{{ nav_page.name }}</a>
       {% else %}
         <a href="{{ site.baseurl }}/{{ nav_page.path | replace: ".md", ".html" }}">{{ nav_page.name }}</a>
       {% endif %}

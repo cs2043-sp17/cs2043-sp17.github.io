@@ -1,0 +1,115 @@
+<div class="panel-group">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#vm_choices">Click for VM Choice Information</a>
+      </h4>
+    </div>
+    <div id="vm_choices" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          Both VMs should be fully functional, and you can always switch or install both
+          and delete one.  It depends on how much space you have available.  The below
+          comparison is more relevant if you were to install one of them natively, you
+          shouldn't run into problems over the duration of the course.
+        </p>
+        <p>
+          In this day and age there are a <strong>lot</strong> of
+          <a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions">different
+          Linux distributions</a>.  Many of them are very similar, but the list grows
+          out of various special needs for different organizations and platforms.  In my
+          experience, the two most commonly used "flavors" of Linux are Debian-based and
+          RPM-based.  From there, the general trend seems to be that
+        </p>
+        <ul>
+          <li>
+            Most independent developers tend to use Debian-based (typically
+            <a href="http://www.ubuntu.com/">Ubuntu</a>) Linux
+          </li>
+          <ul>
+            <li>
+              Ubuntu is a common choice because it has a huge user-base, and therefore a
+              lot of community support.
+            </li>
+          </ul>
+          <li>Corporations (and institutions) tend to use RPM-based Linux.</li>
+          <ul>
+            <li>
+              The cause of this is likely because the Enterprise Linux providers such as
+              <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">
+              Red Hat Enterprise Linux (RHEL)</a> and <a href="https://www.suse.com/">
+              SUSE Linux Enterprise Server (SLES)</a> ensure stability and contract
+              support, which gives corporations certain assurances.
+            </li>
+          </ul>
+        </ul>
+        <p>
+          As such, I have prepared Virtual Machine for each category.  Ubuntu is the
+          obvious choice for Debian-based Linux, and I have chosen to provide
+          <a href="https://getfedora.org/">Fedora</a> as the RPM-based Linux choice.
+          <a href="https://danielmiessler.com/study/fedora_redhat_centos/">This article
+          </a> explains how Fedora, RHEL, and CentOS relate.  I personally develop in
+          both Mac OSX and Fedora, but I also have Ubuntu and Windows installed for
+          compatibility testing.
+        </p>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Fedora 25</h3>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>Has more of the "latest and greatest" tools.</li>
+                  <li>Kernel updates from the package manager are the<strong>default</strong>.</li>
+                  <ul>
+                    <li>Good: newer hardware support / security updates / bugfixes.</li>
+                    <li>Bad: these updates <em>can</em> break things.</li>
+                  </ul>
+                  <li>Relatively short support cycle.</li>
+                  <ul>
+                    <li>
+                      <a href="https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle">
+                      You will have to upgrade sooner rather than later</a>.
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Ubuntu 16.04 LTS</h3>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>Has an extremely vast user-base (aka more support online).</li>
+                  <li>
+                    Kernel updates from the package manager must be
+                    <strong>requested</strong>.
+                  </li>
+                  <ul>
+                    <li>
+                      Good: stable &mdash; kernel changes can have unexpected impacts.
+                    </li>
+                    <li>
+                      Bad: older kernels can impose limitations on development.
+                    </li>
+                  </ul>
+                  <li><strong>LTS</strong> means long term support!</li>
+                  <ul>
+                    <li>
+                      <a href="https://wiki.ubuntu.com/LTS">You can avoid installing a
+                      new OS for 5 years</a>.
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

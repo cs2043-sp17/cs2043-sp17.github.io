@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CS 2043
-email: bindel@cs.cornell.edu
+email: sjm324@cornell.edu
 description: > # this means to ignore newlines until "baseurl:"
   Cornell CS 2043: Unix Tools and Scripting, Spring 2017
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -38,10 +38,9 @@ defaults:
       layout: "main"
 
 # Build settings
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: rouge
-#theme: minima
-
+  syntax_highlighter: rouge
 

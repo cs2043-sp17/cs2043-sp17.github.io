@@ -55,23 +55,23 @@
 ## Week 4
 -
   date: 2017-02-13
-  break: February Break
   week: 4
--
-  date: 2017-02-15
   info: 09 - Bash Scripting II
   demo:
     - Looping through files.
 -
-  date: 2017-02-17
+  date: 2017-02-15
   info: 10 - Bash Scripting III, Git Merging and Diffs
   demo:
     - A forced merge conflict.
+-
+  date: 2017-02-17
+  info: 11 - Advanced Bash, Git Branching
 ########################################################################################
 ## Week 5
 -
   date: 2017-02-20
-  info: 11 - Advanced Bash, Git Branching
+  break: February Break (No Class)
   week: 5
 -
   date: 2017-02-22
