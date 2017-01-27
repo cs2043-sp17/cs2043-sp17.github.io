@@ -87,7 +87,7 @@ md5:  b20180b838c76c9d26b48a558387e536
 ```
 
 ##### Download Mirrors:
-- [Cornell Course Website](http://www.cs.cornell.edu/courses/cs2043/2017sp/vms/cs2043_fedora.ova)
+<!-- - [Cornell Course Website](http://www.cs.cornell.edu/courses/cs2043/2017sp/vms/cs2043_fedora.ova) -->
 - [Dropbox](https://www.dropbox.com/s/b40c4zsqi2j504r/cs2043_fedora.ova?dl=0)
 - [Google Drive](https://drive.google.com/open?id=0B47IM_slYhMnUTViMzVWQkhPRWM)
 
@@ -100,7 +100,7 @@ md5:  c4b29fa6c10d9316917f53accf8c2023
 ```
 
 ##### Download Mirrors
-- [Cornell Course Website](http://www.cs.cornell.edu/courses/cs2043/2017sp/vms/cs2043_ubuntu.ova)
+<!-- - [Cornell Course Website](http://www.cs.cornell.edu/courses/cs2043/2017sp/vms/cs2043_ubuntu.ova) -->
 - [Dropbox](https://www.dropbox.com/s/4le4refjqutc2bk/cs2043_ubuntu.ova?dl=0)
 - [Google Drive](https://drive.google.com/open?id=0B47IM_slYhMnMFpNdTUtWTlDUWc)
 
