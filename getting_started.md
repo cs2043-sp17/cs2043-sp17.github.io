@@ -54,7 +54,7 @@ Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (current version
 
 If you don't want to read anymore, just select the Ubuntu VM and enjoy.
 
-{% include vm_choices.html %}
+{% include getting_started/vm_choices.html %}
 
 <div class="panel panel-info">
   <div class="panel-heading">
@@ -71,7 +71,7 @@ If you don't want to read anymore, just select the Ubuntu VM and enjoy.
 
 #### Fedora 25 Hosts
 
-```console
+```bash
 File: cs2043-fedora.ova
 Size: 3.2 GB (3,182,565,376 bytes)
 md5:  b20180b838c76c9d26b48a558387e536
@@ -84,7 +84,7 @@ md5:  b20180b838c76c9d26b48a558387e536
 
 #### Ubuntu 16.04 Hosts
 
-```console
+```bash
 File: cs2043-ubuntu.ova
 Size: 2.4 GB (2,402,733,568 bytes)
 md5:  c4b29fa6c10d9316917f53accf8c2023
@@ -107,7 +107,7 @@ What you just downloaded is an archive of a Virtual Machine (think of it like a
 5. Check the box that says "Reinitialize the MAC address of all network cards."
 6. Click import, and let VirtualBox take over.
 
-{% include no_64bit_or_vtx.html %}
+{% include getting_started/no_64bit_or_vtx.html %}
 
 ### 4. Run it!
 
@@ -120,50 +120,7 @@ of convenience, the VMs are not secure.  So don't store sensitive data on them.
 
 ### 5. Customize the Virtual Machine
 
-<div class="panel-group" id="configs_accordian">
-  <div class="panel panel-default">
-    <!-- Part 1: Both VMs -->
-    <div class="panel-heading">
-      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#configs_accordian" href="#part_1_both">
-        5.1: Give the VM More Resources (Fedora and Ubuntu)
-      </a></h4>
-    </div>
-    <div id="part_1_both" class="panel-collapse collapse">
-      <div class="panel-body">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/Wyt2FBwWFSg"></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- Part 2: Fedora -->
-    <div class="panel-heading">
-      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#configs_accordian" href="#part_2_fedora">
-        5.2: Install VirtualBox Guest Additions for Fedora
-      </a></h4>
-    </div>
-    <div id="part_2_fedora" class="panel-collapse collapse">
-      <div class="panel-body">
-        <!-- Fedora VM -->
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/ADJVRCD5tpY"></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- Part 2: Ubuntu -->
-    <div class="panel-heading">
-      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#configs_accordian" href="#part_2_ubuntu">
-        5.2: Install VirtualBox Guest Additions for Ubuntu
-      </a></h4>
-    </div>
-    <div id="part_2_ubuntu" class="panel-collapse collapse">
-      <div class="panel-body">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/qw4r3ZCrAQA"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</div><!-- end accordian-->
+{% include getting_started/step_5_videos.html %}
 
 ## 32bit Alternative
 ----------------------------------------------------------------------------------------

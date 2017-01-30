@@ -9,6 +9,8 @@
   external: true
 - path: readings.md
   name: Readings
+- path: configurations.md
+  name: Configurations
 - path: https://github.com/cs2043-sp17
   name: GitHub
   external: true

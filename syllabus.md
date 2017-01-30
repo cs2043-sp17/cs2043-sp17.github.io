@@ -115,7 +115,7 @@ There will be around 5 assignments in all.  All assignments will be done individ
 
 On weeks when an assignment is due, it will be due at **5pm EST on Friday**.
 These deadlines are be posted on the
-[Schedule]({{ site.baseurl }}{% link schedule.html %}) page.  This time was chosen to
+[Schedule]({{ site.baseurl }}{% link schedule.md %}) page.  This time was chosen to
 hopefully make your life easier; you are taking other classes and the majority should
 have non-conflicting deadlines with this time.
 

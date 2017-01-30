@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  {% include core/head.html %}
   <body role="document">
     <div class="container" role="main">
-      {% include navbar.html %}
-    {% if page.mainpage %}
-      {% include mainpage.html %}
-    {% else %}
-      {% include title.html %}
-    {% endif %}
+      {% include core/navbar.html %}
+      {% include core/title.html %}
       {{ content }}
-      {% include footer.html %}
+      {% include core/footer.html %}
     </div>
     <!-- /.container theme-showcase -->
-    {% include scripts.html %}
+    {% include core/scripts.html %}
   </body>
 </html>

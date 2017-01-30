@@ -16,10 +16,11 @@
 title: CS 2043
 email: sjm324@cornell.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Cornell CS 2043: Unix Tools and Scripting, Spring 2017
+  Unix Tools and Scripting, Spring 2017
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cs2043-sp17.github.io" # the base hostname & protocol for your site
 bootswatch_theme: sandstone
+pygments_theme: perldoc
 
 # invert_navbar: true
 

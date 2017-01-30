@@ -16,3 +16,11 @@
 {% endunless %}
 <!-- Load in custom styling after bootstrap. -->
 <link rel="stylesheet" href="{{ site.baseurl }}{% link css/main.css %}">
+<!-- Bring in the syntax highlighting last -->
+{% if site.pygments_theme %}
+  {% for theme in site.data.pygments_themes %}
+    {% if site.pygments_theme == theme.name %}
+<link rel="stylesheet" href="{{ site.baseurl }}/css/jekyll-pygments-themes/{{ site.pygments_theme }}.css">
+    {% endif %}
+  {% endfor %}
+{% endif %}

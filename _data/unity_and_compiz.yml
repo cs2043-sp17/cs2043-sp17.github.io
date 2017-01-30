@@ -1,0 +1,73 @@
+- image: img/screens/ubuntu/unity_and_compiz/00_grid_appearance.png
+  title: Launch the Appearance Settings
+  description: >
+    Either click on the Unity icon in the top left or hit the `super` (command on mac,
+    windows button otherwise) and type `appearance`.  Use the down arrow to select the
+    system Appearance and hit enter.
+- image: img/screens/ubuntu/unity_and_compiz/01_grid_behavior.png
+  title: Enable Workspaces
+  description: >
+    Select the `Behavior` tab and make sure the `Enable workspaces` box is checked.
+- image: img/screens/ubuntu/unity_and_compiz/02_grid_ccsm_launch.png
+  title: Launch the CompizConfig Settings Manager (CCSM)
+  description: >
+    Using the launcher, type `ccsm`, arrow to CompizConfig Settings Manager and hit enter.
+- image: img/screens/ubuntu/unity_and_compiz/03_grid_compiz_warning.png
+  title: CCSM Warning
+  description: >
+    By default this program always warns you of its dangers.  You are encouraged to
+    leave that checked -- it will force you to be careful.
+- image: img/screens/ubuntu/unity_and_compiz/04_grid_ccsm_general_options.png
+  title: General Options
+  description: >
+    Select the `General Options` menu.
+- image: img/screens/ubuntu/unity_and_compiz/05_grid_three_by_three.png
+  title: Set the Number of Workspaces
+  description: >
+    Since I am showing you a 3x3 grid, this is what is entered.  You can configure this
+    however you see fit!  When finished, hit the `Back` button in the bottom left to
+    return to the previous menu.
+- image: img/screens/ubuntu/unity_and_compiz/06_ccsm_desktop_wall_launch.png
+  title: Desktop Wall
+  description: >
+    Select the `Desktop Wall` button, making sure that the box next to it is checked
+    (sometimes it isn't).
+- image: img/screens/ubuntu/unity_and_compiz/07_ccsm_desktop_wall_allow_wrap_around.png
+  title: Enable Workspace Wrapping
+  description: >
+    Make sure the `Allow Wrap-Around` box is checked.  Click the `Back` button in the
+    bottom left to return to the previous menu.  You can explore `ccsm` to your hearts
+    desire, there are a **lot** of interesting features.  But for now close `ccsm` and
+    lets make some changes with `unity-tweak-tool`.
+- image: img/screens/ubuntu/unity_and_compiz/08_grid_tweak_launch.png
+  title: Launch Unity Tweak Tool
+  description: >
+    Using the launcher, type `tweak` and arrow to `Unity Tweak Tool` and hit enter.
+- image: img/screens/ubuntu/unity_and_compiz/09_tweak_unity_panel.png
+  title: Panel Tab
+  description: >
+    Select the `Panel` button in the top row.
+- image: img/screens/ubuntu/unity_and_compiz/10_tweak_times_ex.png
+  title: Tweak Example
+  description: >
+    I went ahead and checked all the time boxes on the left to display seconds etc.
+    Click on the `Overview` button at the top to return to the previous menu.
+- image: img/screens/ubuntu/unity_and_compiz/11_tweak_window_additional.png
+  title: Additional
+  description: >
+    Select the `Additional` button in the second row.
+- image: img/screens/ubuntu/unity_and_compiz/12_tweak_sloppy_auto_raise.png
+  title: Sloppy Mouse and Auto-Raise
+  description: >
+    Sloppy focus means that keyboard keys entered will get sent to whatever program the
+    **mouse** is hovering over.  You may **strongly dislike this**, if so change it back
+    to `click`.  Auto-raise brings the window your mouse is hovering over to the top
+    after a little bit.  You may want to disable this too.
+- image: img/screens/ubuntu/unity_and_compiz/13_tweak_ex_black_cursor.png
+  title: Tweak Example
+  description: >
+    You can easily, for example, choose a `black` cursor.
+- image: img/screens/ubuntu/unity_and_compiz/14_tweak_highlight_trackpad_scrolling_type.png
+  title: Tweak Example
+  description: >
+    You can also enable two-finger scrolling if your trackpad supports it.

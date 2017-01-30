@@ -1,0 +1,76 @@
+- image: img/screens/fedora/tweak_and_workspace_grid/00_tweak_launch.png
+  title: Launch Gnome Tweak Tool
+  description: >
+    Launch "Activities" (hit the super key) and type `tweak`, when `gnome-tweak-tool`
+    is selected hit `enter`.
+- image: img/screens/fedora/tweak_and_workspace_grid/01_GLOBAL_DARK_THEME.png
+  is_light: true
+  title: Global Dark Theme!
+  description: >
+    Under the "Appearance" tab, click the "Global Dark Theme" slider to turn it on.
+    Close `gnome-tweak-tool` and re-open it to see the effect (as shown in the next
+    image).
+- image: img/screens/fedora/tweak_and_workspace_grid/03_tweak_icons_on_desktop.png
+  title: Enable Desktop Icons
+  description: >
+    Click the slider to allow you to see what is on your Desktop (disabled by default).
+- image: img/screens/fedora/tweak_and_workspace_grid/04_tweak_ex_change_font_size.png
+  title: Change System Font Sizes
+  description: >
+    If you want to increase / decrease font sizes for various components of the OS, this
+    is the easiest way to achieve it.
+- image: img/screens/fedora/tweak_and_workspace_grid/05_tweak_ex_timing.png
+  title: More Explicit TopBar Times
+  description: >
+    Because why not?  The effect of `Show week numbers` can be seen if you click on the
+    clock in the top-bar to see the calendar.
+- image: img/screens/fedora/tweak_and_workspace_grid/06_tweak_mouse_sloppy_auto_raise.png
+  title: Sloppy Mouse and Auto-Raise
+  description: >
+    Sloppy focus means that keyboard keys entered will get sent to whatever program the
+    **mouse** is hovering over.  You may **strongly dislike this**, if so change it back
+    to `click`.  Auto-raise brings the window your mouse is hovering over to the top
+    after a little bit.  You may want to disable this too.
+- image: img/screens/fedora/tweak_and_workspace_grid/07_workspace_grid_static_9.png
+  title: Preparation for Workspace Grid
+  description: >
+    In order for the Workspace Grid extension to function, we need to set a `static`
+    number of workspaces.  If you wanted to do a 2x2 grid, for example, you would set
+    this to `4` instead of `9`.
+- image: img/screens/fedora/tweak_and_workspace_grid/08_tweak_add_gnome_extension.png
+  title: Go to the Extensions Tab
+  description: >
+    We just downloaded a `.zip` of the extension we want to install, in the `Install
+    Shell Extension` row, where the mouse is hovering in the picture, click on the file
+    dialog that says `(None)`.
+- image: img/screens/fedora/tweak_and_workspace_grid/09_tweak_select_downloaded_zip.png
+  title: Select the Workspace Grid zip
+  description: >
+    In your `Downloads` folder, select the Workspace Grid `.zip` file that was
+    downloaded and click `Open` in the top right of the file dialog.
+- image: img/screens/fedora/tweak_and_workspace_grid/10_workspace_grid_must_restart.png
+  title: Restart Gnome
+  description: >
+    You will be asked to restart your gnome session, click on `Restart Session`.  If you
+    accidentally closed this, you can either log out and log back in (not lock the
+    screen, but fully log out), or type `alt+F2` at the same time (Mac people: remember
+    you need to add the `fn` key).  A dialog will pop up, type `r` and hit `enter`.
+    This just issued a `r`estart request to gnome.
+- image: img/screens/fedora/tweak_and_workspace_grid/11_workspace_grid_settings.png
+  title: Workspace Grid Installed, Needs Configuration
+  description: >
+    The installation worked, click on the cog wheel to open up the settings for the
+    Workspace Grid Extension.
+- image: img/screens/fedora/tweak_and_workspace_grid/12_workspace_grid_rows_times_cols_equals_static.png
+  title: Set the Number of Workspaces
+  description: >
+    Number of rows times the number of columns should equal whatever the number of
+    `static` workspaces you set in the `Workspaces` tab of `gnome-tweak-tool`.  The
+    extension **will** break if you do not.  Because I like my workspaces to wrap
+    around, I slide all of them to `on`.
+- image: img/screens/fedora/tweak_and_workspace_grid/13_workspace_grid_YEA.png
+  title: End Result
+  description: >
+    Now that you have the settings configured, in the `Extensions` tab of
+    `gnome-tweak-tool` make sure that you have slid `Workspace Grid` to be `on`.  Now
+    hit the `super` key to get into the overview.

@@ -9,12 +9,12 @@
   <link rel="icon" href="{{ site.icon }}">
 {% endif %}
 {% if page.title == "index" %}
-  <title>CS 2043</title>
+  <title>{{ site.title }}</title>
 {% else %}
-  <title>CS 2043 &mdash; {{ page.title }}</title>
+  <title>{{ site.title }} &mdash; {{ page.title }}</title>
 {% endif %}
 
-  {% include stylesheets.html %}
+  {% include core/stylesheets.html %}
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>

@@ -1,0 +1,43 @@
+<div class="panel-group" id="{{ include.name }}">
+  <div class="panel panel-default">
+    <!-- Fedora -->
+    <div class="panel-heading">
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#{{ include.name }}" href="#{{ include.name }}_fedora">
+        Fedora
+      </a></h4>
+    </div>
+    <div id="{{ include.name }}_fedora" class="panel-collapse collapse">
+      <div class="panel-body">
+        {% assign fedora = include.name | append: '/fedora.md' | prepend: 'configurations/' %}
+        {% capture fedora_include %}{% include {{ fedora }} %}{% endcapture %}
+        {{ fedora_include | markdownify }}
+      </div>
+    </div>
+    <!-- Ubuntu-->
+    <div class="panel-heading">
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#{{ include.name }}" href="#{{ include.name }}_ubuntu">
+        Ubuntu
+      </a></h4>
+    </div>
+    <div id="{{ include.name }}_ubuntu" class="panel-collapse collapse">
+      <div class="panel-body">
+        {% assign ubuntu = include.name | append: '/ubuntu.md' | prepend: 'configurations/' %}
+        {% capture ubuntu_include %}{% include {{ ubuntu }} %}{% endcapture %}
+        {{ ubuntu_include | markdownify }}
+      </div>
+    </div>
+    <!-- Mac -->
+    <div class="panel-heading">
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#{{ include.name }}" href="#{{ include.name }}_mac">
+        Mac
+      </a></h4>
+    </div>
+    <div id="{{ include.name }}_mac" class="panel-collapse collapse">
+      <div class="panel-body">
+        {% assign mac = include.name | append: '/mac.md' | prepend: 'configurations/' %}
+        {% capture mac_include %}{% include {{ mac }} %}{% endcapture %}
+        {{ mac_include | markdownify }}
+      </div>
+    </div>
+  </div>
+</div><!-- end accordian-->

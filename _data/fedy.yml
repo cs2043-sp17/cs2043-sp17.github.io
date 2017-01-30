@@ -1,0 +1,21 @@
+- image: img/screens/fedora/fedy/00_fedy_install_sublime_3.png
+  is_light: true
+  title: Sublime Text 3
+  description: >
+    Under the "Development Tools" tab, install Sublime Text **3**.  If you are still
+    using Sublime Text **2**, it's time to move on.
+- image: img/screens/fedora/fedy/01_fedy_tweaks.png
+  is_light: true
+  title: Fedy Tweaks
+  description: >
+    The ones in the picture that show a red `revert` button are the ones I insalled.
+    I discourage you from installing the `Fancy Bash Prompt`, we will learn exactly how
+    to configure this ourselves!
+- image: img/screens/fedora/fedy/02_fedy_utilities.png
+  is_light: true
+  title: Fedy Utilities
+  description: >
+    This is by far the easiest way to install Adobe Flash, various useful archive
+    formats, and multimedia codecs.  For example, due to legal reasons, the `mp3` format
+    cannot be distributed with the Linux kernel.  Clicking that little button would
+    allow you to play these files and more.
