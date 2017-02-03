@@ -25,7 +25,8 @@
     - Last day to add.
 -
   date: 2017-02-03
-  info: 05 - Expansions and Regular Expressions
+  info: 05 - More Files, Chaining Commands, Piping and Redirection
+  path: lecture05/lecture05.pdf
   demo:
     - Basic text processing.
   misc:
