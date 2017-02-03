@@ -22,7 +22,13 @@
       {% if lec.break %}
       <td>{{ lec.break }}</td>
       {% else %}
-      <td>{% if lec.info %}{{ lec.info | markdownify }}{% endif %}</td>
+      <td>
+        {% if lec.info %}{{ lec.info | markdownify }}{% endif %}
+        {% if lec.path %}
+          <a class="btn btn-success btn-sm" href="{{ site.baseurl }}/slides/dark/{{ lec.path }}" target="_blank" rel="noopener">Dark Slides</a>
+          <a class="btn btn-info btn-sm" href="{{ site.baseurl }}/slides/light/{{ lec.path }}" target="_blank" rel="noopener">Light Slides</a>
+        {% endif %}
+      </td>
       {% endif %}
       <td>
         {% if lec.hw %}

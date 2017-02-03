@@ -17,7 +17,7 @@ Location location: Gates G01
 
 #### Lecturer: Stephen McDowell
 
-- Thursday: 4:00pm - 5:00pm, Gates G19
+- Thursday: 6:00pm - 7:00pm, Gates G11
 - Friday: 2:00pm - 3:00pm, Gates G19
 
 > #### Notice
@@ -44,15 +44,14 @@ Location location: Gates G01
 #### TA: Matt Lombana
 
 - Monday: 2:00pm - 3:00pm, Gates G17
-- Tuesday: 12:30pm - 1:30pm, Gates G19
 - Wednesday: 2:00pm - 3:00pm, Gates G19
 
 #### TA: Joe Marino
 
 - Tuesday: 11:30am - 12:30pm, Gates G19
-- Thursday: 3:00pm - 4:00pm, Gates G19
+- Thursday: 4:00pm - 5:00pm, Gates G19
 
-<iframe src="https://calendar.google.com/calendar/embed?src=cornell.edu_6lkr0dr01n7vhdju0f915aeeis%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=cornell.edu_6lkr0dr01n7vhdju0f915aeeis%40group.calendar.google.com&amp;color=%237A367A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Catalog description
 ----------------------------------------------------------------------------------------

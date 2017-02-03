@@ -7,21 +7,20 @@
 -
   date: 2017-01-27
   info: 02 - The Unix file system
-  demo:
-    - Creating a git repository
+  path: lecture02/lecture02.pdf
 ########################################################################################
 ## Week 2
 -
   date: 2017-01-30
   info: 03 - Manipulating Files and Using Git
+  path: lecture03/lecture03.pdf
   week: 2
   demo:
     - File permissions gone wild.
 -
   date: 2017-02-01
-  info: 04 - More Files, Chaining Commands, and your First(?) Git Repository
-  demo:
-    - Forking a repository.
+  info: 04 - Package Management
+  path: lecture04/lecture04.pdf
   misc:
     - Last day to add.
 -
@@ -85,7 +84,7 @@
 ## Week 6
 -
   date: 2017-02-27
-  info: 14 - Package Management
+  info: 14 - TBD
   week: 6
   demo:
     - Debugging <kbd>python3</kbd>.
