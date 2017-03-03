@@ -34,7 +34,7 @@ Location location: Gates G01
 
 - Monday: 3:00pm - 4:00pm, Gates G17
 - Wednesday: 3:00pm - 4:00pm, Gates G19
-- Friday: 3:00pm - 4:00pm, Gates G19
+- Friday: 3:00pm - 4:00pm, Gates G11
 
 #### TA: Jakob Glueck
 
